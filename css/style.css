@@ -253,12 +253,29 @@ p {
 }
 
 /* Research Section */
-.research-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2rem;
-    margin-bottom: 4rem;
-}
+/* NEW CODE - 2x3 GRID LAYOUT */
+  .research-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, auto);
+      gap: 2rem;
+      margin-bottom: 4rem;
+  }
+
+  /* Responsive adjustments for 2x3 grid */
+  @media (max-width: 1024px) {
+      .research-grid {
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(3, auto);
+      }
+  }
+
+  @media (max-width: 768px) {
+      .research-grid {
+          grid-template-columns: 1fr;
+          grid-template-rows: auto;
+      }
+  }
 
 .research-card {
     background: white;
