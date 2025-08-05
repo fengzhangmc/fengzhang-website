@@ -1,0 +1,88 @@
+---
+title: "Publications"
+description: "Books, journal articles, and book chapters on Chinese foreign policy, IR theory, and East Asian international relations."
+toc: false
+page-layout: custom
+---
+
+::: {.section .publications-section}
+::: {.container}
+## Recent Publications {.section-title}
+
+::: {.publications-list}
+
+::: {.publication-item}
+::: {.pub-year}
+2025
+:::
+::: {.pub-content}
+#### "Amity, Security, Influence: Explaining China's Policy toward Afghanistan, 1949-2024"
+
+[*Journal of Contemporary China*]{.journal} [Forthcoming]{.status} [DOI](https://doi.org/10.1080/10670564.2025.2471924){.doi-link}
+:::
+:::
+
+::: {.publication-item}
+::: {.pub-year}
+2025
+:::
+::: {.pub-content}
+#### "A Neighbor of Neighbors: China's Policy toward Afghanistan, 1949-2024"
+
+[Palgrave Macmillan]{.publisher} August 2025
+:::
+:::
+
+::: {.publication-item}
+::: {.pub-year}
+2024
+:::
+::: {.pub-content}
+#### "Multiple Modernities in Civilizational Perspective: An Assessment of the Global Civilization(s) Initiative"
+
+Co-authored with Barry Buzan · [*Chinese Journal of International Politics*]{.journal}, Vol. 17, No. 1, pp. 104-126
+:::
+:::
+
+::: {.publication-item}
+::: {.pub-year}
+2023
+:::
+::: {.pub-content}
+#### "China's Counterfactual Roles in the Ukraine War"
+
+[*Globalizations*]{.journal}, Vol. 20, No. 7, pp. 1202-1213
+:::
+:::
+
+::: {.publication-item}
+::: {.pub-year}
+2022
+:::
+::: {.pub-content}
+#### "Justice and International Order: East and West"
+
+Co-authored with Richard Ned Lebow · [Oxford University Press]{.publisher}
+:::
+:::
+
+::: {.publication-item}
+::: {.pub-year}
+2022
+:::
+::: {.pub-content}
+#### "The Relevance of Deep Pluralism for China's Foreign Policy"
+
+Co-authored with Barry Buzan · [*Chinese Journal of International Politics*]{.journal}, Vol. 15, No. 3, pp. 246-271
+:::
+:::
+
+:::
+
+::: {.publications-cta}
+[View Complete Publications List](assets/Feng_Zhang_CV.pdf){.btn .btn-primary}
+[Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=JU4WvtwAAAAJ){.btn .btn-secondary}
+:::
+
+:::
+:::

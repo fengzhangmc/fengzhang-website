@@ -1,0 +1,381 @@
+---
+title: "International Relations and China"
+pagetitle: "Feng Zhang | International Relations Scholar | Chinese Foreign Policy"
+description: "International relations scholar at Yale specializing in Chinese foreign policy, US-China relations, and IR theory."
+image: assets/feng-zhang-photo.jpg
+toc: false
+page-layout: custom
+---
+
+::: {.hero-section}
+::: {.container}
+::: {.hero-content}
+
+::: {.hero-image}
+![Feng Zhang](assets/feng-zhang-photo.jpg){fig-alt="Feng Zhang"}
+:::
+
+::: {.hero-text}
+## International Relations and China
+
+I am a scholar of international relations specializing in Chinese foreign policy, IR theory, and the international order of East and Southeast Asia. My research bridges Chinese and Western theoretical traditions to illuminate how history, philosophy, and culture shape contemporary statecraft. My academic experience includes teaching at institutions across Australia, China, the United Kingdom, and the United States. Currently, I serve as Associate Research Scholar and Lecturer at Yale University's MacMillan Center for International and Area Studies and Department of Political Science.
+
+::: {.hero-buttons}
+[📧 Contact](mailto:feng.zhang@yale.edu){.btn .btn-primary}
+[📄 Download CV](assets/Feng_Zhang_CV.pdf){.btn .btn-secondary}
+:::
+
+:::
+
+:::
+:::
+:::
+
+::: {.section}
+::: {.container}
+## Current Research {.section-title}
+
+::: {.research-grid}
+
+::: {.research-card .featured}
+::: {.card-icon}
+📚
+:::
+### New Book
+#### *A Neighbor of Neighbors: China's Policy toward Afghanistan, 1949-2024*
+
+A comprehensive study of China's policy toward Afghanistan from the founding of the People's Republic to the present. Analyzes Chinese strategic interests, policy goals, and the evolution of bilateral and regional dynamics across seven decades, culminating in the aftermath of the Taliban's return to power.
+
+::: {.card-footer}
+[Palgrave Macmillan]{.tag}
+[August 2025]{.status}
+:::
+:::
+
+::: {.research-card}
+::: {.card-icon}
+📚
+:::
+### Forthcoming Book
+#### *History, Lessons, Analogies: Learning from Wars and Pandemics*
+
+Co-authored with Richard Ned Lebow. Investigates how states and leaders learn---or fail to learn---from major crises such as wars and pandemics. Explores why certain lessons become deeply institutionalized while others fade, how lessons migrate across domains, and what conditions shape the durability and influence of historical analogies.
+
+::: {.card-footer}
+[Oxford University Press]{.tag}
+[Under Review]{.status}
+:::
+:::
+
+::: {.research-card}
+::: {.card-icon}
+🌐
+:::
+### Ongoing Research I
+#### *Between Petty and Exemplary Competition: A New Framework for US-China Relations*
+
+Develops a novel framework for understanding U.S.--China rivalry by synthesizing relational and exemplarist traditions from both Chinese and Western political thought. Highlights the role of intellectual heritage, political psychology, and strategies of reassurance in shaping patterns of cooperation and competition.
+
+::: {.card-footer}
+[Ongoing]{.status}
+:::
+:::
+
+::: {.research-card}
+::: {.card-icon}
+🔬
+:::
+### Ongoing Research II
+#### *A Xunzian Theory of International Leadership: Virtue, Ritual, and Order*
+
+Advances a new theory of international leadership grounded in the Confucian philosophy of Xunzi. Contrasts this approach with Yan Xuetong's moral realism and dominant Western theories of leadership. Employs a mixed-methods design---combining historical case studies and quantitative analysis---to evaluate how virtue and ritual shape international order.
+
+::: {.card-footer}
+[In Progress]{.status}
+:::
+:::
+
+::: {.research-card}
+::: {.card-icon}
+📊
+:::
+### Ongoing Research III
+#### *Chinese Foreign Policy Texts: A Machine-Learning Approach*
+
+Applies machine learning and natural language processing to analyze indigenous Chinese-language texts and trace shifts in Chinese foreign policy discourse. Builds a comprehensive corpus of PRC foreign policy documents and explores the potential for expanding to historical sources to capture deeper patterns of continuity and change.
+
+::: {.card-footer}
+[In Progress]{.status}
+:::
+:::
+
+::: {.research-card}
+::: {.card-icon}
+🤝
+:::
+### Key Collaborators
+#### *Distinguished Research Partners*
+
+Long-term collaborations with leading scholars in international relations and comparative politics.
+
+::: {.collaborators-list}
+::: {.collaborator}
+**Richard Ned Lebow**<br>
+[Professor Emeritus of International Political Theory, King's College London]{.small}<br>
+[Google Scholar](https://scholar.google.com/citations?user=CtUH_9cAAAAJ&hl=en){.collab-link}
+:::
+
+::: {.collaborator}
+**Barry Buzan**<br>
+[Emeritus Professor of International Relations, London School of Economics]{.small}<br>
+[Google Scholar](https://scholar.google.com/citations?user=9SlmSbwAAAAJ&hl=en){.collab-link}
+:::
+
+::: {.collaborator}
+**Peter J. Katzenstein**<br>
+[Walter S. Carpenter, Jr. Professor of International Studies, Cornell University]{.small}<br>
+[Personal Website](https://pkatzenstein.org/){.collab-link}
+:::
+:::
+:::
+
+:::
+
+::: {.research-areas}
+### Research Areas
+
+::: {.areas-grid}
+::: {.area-item}
+#### Chinese Grand Strategy
+Grand strategies of imperial China and the PRC, Chinese strategic thinking, intellectual foundations of Chinese strategy
+:::
+
+::: {.area-item}
+#### Chinese Foreign Policy
+US-China relations, Chinese exceptionalism, deep pluralism and civilizational politics, Confucian foreign policy traditions, Afghanistan, South China Sea and Southeast Asia
+:::
+
+::: {.area-item}
+#### International Relations Theory
+Moral realism, Confucian IR theory, Chinese approaches to international relations theory and practice
+:::
+
+::: {.area-item}
+#### International Relations of East Asia
+The tribute system, international relations in historical and contemporary East Asia
+:::
+:::
+:::
+
+:::
+:::
+
+::: {.section .publications-section}
+::: {.container}
+## Recent Publications {.section-title}
+
+::: {.publications-list}
+
+::: {.publication-item}
+::: {.pub-year}
+2025
+:::
+::: {.pub-content}
+#### "Amity, Security, Influence: Explaining China's Policy toward Afghanistan, 1949-2024"
+
+[*Journal of Contemporary China*]{.journal} [Forthcoming]{.status} [DOI](https://doi.org/10.1080/10670564.2025.2471924){.doi-link}
+:::
+:::
+
+::: {.publication-item}
+::: {.pub-year}
+2025
+:::
+::: {.pub-content}
+#### "A Neighbor of Neighbors: China's Policy toward Afghanistan, 1949-2024"
+
+[Palgrave Macmillan]{.publisher} August 2025
+:::
+:::
+
+::: {.publication-item}
+::: {.pub-year}
+2024
+:::
+::: {.pub-content}
+#### "Multiple Modernities in Civilizational Perspective: An Assessment of the Global Civilization(s) Initiative"
+
+Co-authored with Barry Buzan · [*Chinese Journal of International Politics*]{.journal}, Vol. 17, No. 1, pp. 104-126
+:::
+:::
+
+::: {.publication-item}
+::: {.pub-year}
+2023
+:::
+::: {.pub-content}
+#### "China's Counterfactual Roles in the Ukraine War"
+
+[*Globalizations*]{.journal}, Vol. 20, No. 7, pp. 1202-1213
+:::
+:::
+
+::: {.publication-item}
+::: {.pub-year}
+2022
+:::
+::: {.pub-content}
+#### "Justice and International Order: East and West"
+
+Co-authored with Richard Ned Lebow · [Oxford University Press]{.publisher}
+:::
+:::
+
+::: {.publication-item}
+::: {.pub-year}
+2022
+:::
+::: {.pub-content}
+#### "The Relevance of Deep Pluralism for China's Foreign Policy"
+
+Co-authored with Barry Buzan · [*Chinese Journal of International Politics*]{.journal}, Vol. 15, No. 3, pp. 246-271
+:::
+:::
+
+:::
+
+::: {.publications-cta}
+[View Complete Publications List](assets/Feng_Zhang_CV.pdf){.btn .btn-primary}
+[Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=JU4WvtwAAAAJ){.btn .btn-secondary}
+:::
+
+:::
+:::
+
+::: {.section .media-section}
+::: {.container}
+## Commentary {.section-title}
+
+::: {.media-featured}
+::: {.featured-media}
+[OP-ED]{.media-type .op-ed}
+
+### "China's Grand Reception for Kim Jong Un: Strategic Reset or Warning Shot?"
+
+38 North, Stimson Center
+
+[*September 5, 2025*]{.media-date}
+:::
+:::
+
+::: {.media-grid}
+
+::: {.media-item}
+[OP-ED]{.media-type .op-ed}
+
+#### "Confucius Says: Get the Definition of US-China 'Competition' Right"
+
+[Responsible Statecraft]{.outlet} · November 4, 2024
+:::
+
+::: {.media-item}
+[ANALYSIS]{.media-type .analysis}
+
+#### "Is China Being Played by North Korea and Russia?"
+
+[Responsible Statecraft]{.outlet} · November 25, 2024
+:::
+
+::: {.media-item}
+[COMMENTARY]{.media-type .commentary}
+
+#### "Sino-Indian Double Rivalry in the Shadow of Trump's Return"
+
+[China-India Brief]{.outlet} · December 23, 2024
+:::
+
+::: {.media-item}
+[PODCAST]{.media-type .podcast}
+
+#### "China-North Korea Evolving Relations"
+
+[China Power Podcast, Center for Strategic & International Studies]{.outlet} · December 19, 2024
+:::
+
+:::
+
+::: {.media-outlets}
+#### Commentary Outlets
+
+::: {.outlets-list}
+[Foreign Affairs]{.outlet-tag}
+[Foreign Policy]{.outlet-tag}
+[Responsible Statecraft]{.outlet-tag}
+[East Asian Forum]{.outlet-tag}
+[Wire China]{.outlet-tag}
+[National Interest]{.outlet-tag}
+:::
+:::
+
+::: {.media-cta}
+[View All Commentary](assets/Feng_Zhang_CV.pdf){.btn .btn-primary}
+:::
+
+:::
+:::
+
+::: {.section .teaching-section}
+::: {.container}
+## Teaching & Speaking {.section-title}
+
+::: {.teaching-grid}
+::: {.teaching-card}
+### Current Courses (Yale University)
+
+- **China's International Relations** (UG & PG)
+- **Chinese Thinking on International Relations** (UG & PG)
+
+:::
+
+::: {.teaching-card}
+### Recent Speaking Engagements
+
+::: {.speaking-list}
+::: {.speaking-item}
+**U.S.-China Strategic Dialogue**
+
+National Committee on American Foreign Policy, New York (May 2025)
+:::
+
+::: {.speaking-item}
+**China's Power: Up for Debate**
+
+Center for Strategic & International Studies (February 2025)
+:::
+
+::: {.speaking-item}
+**China as a Global Actor**
+
+Stockholm China Forum 30, Washington DC (November 2024)
+:::
+:::
+:::
+:::
+
+::: {.expertise-areas}
+### Speaking Topics
+
+::: {.topics-grid}
+[Chinese Foreign Policy]{.topic-tag}
+[Chinese Grand Strategy]{.topic-tag}
+[US-China Relations]{.topic-tag}
+[South China Sea]{.topic-tag}
+[Afghanistan Policy]{.topic-tag}
+[IR Theory from China]{.topic-tag}
+[The Tribute System]{.topic-tag}
+[Asian International Relations]{.topic-tag}
+:::
+:::
+
+:::
+:::

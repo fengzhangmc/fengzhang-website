@@ -1,0 +1,145 @@
+---
+title: "Research"
+description: "Current research projects and areas of expertise in Chinese foreign policy, IR theory, and East Asian international relations."
+toc: false
+page-layout: custom
+---
+
+::: {.section}
+::: {.container}
+## Current Research {.section-title}
+
+::: {.research-grid}
+
+::: {.research-card .featured}
+::: {.card-icon}
+📚
+:::
+### New Book
+#### *A Neighbor of Neighbors: China's Policy toward Afghanistan, 1949-2024*
+
+A comprehensive study of China's policy toward Afghanistan from the founding of the People's Republic to the present. Analyzes Chinese strategic interests, policy goals, and the evolution of bilateral and regional dynamics across seven decades, culminating in the aftermath of the Taliban's return to power.
+
+::: {.card-footer}
+[Palgrave Macmillan]{.tag}
+[August 2025]{.status}
+:::
+:::
+
+::: {.research-card}
+::: {.card-icon}
+📚
+:::
+### Forthcoming Book
+#### *History, Lessons, Analogies: Learning from Wars and Pandemics*
+
+Co-authored with Richard Ned Lebow. Investigates how states and leaders learn---or fail to learn---from major crises such as wars and pandemics. Explores why certain lessons become deeply institutionalized while others fade, how lessons migrate across domains, and what conditions shape the durability and influence of historical analogies.
+
+::: {.card-footer}
+[Oxford University Press]{.tag}
+[Under Review]{.status}
+:::
+:::
+
+::: {.research-card}
+::: {.card-icon}
+🌐
+:::
+### Ongoing Research I
+#### *Between Petty and Exemplary Competition: A New Framework for US-China Relations*
+
+Develops a novel framework for understanding U.S.--China rivalry by synthesizing relational and exemplarist traditions from both Chinese and Western political thought. Highlights the role of intellectual heritage, political psychology, and strategies of reassurance in shaping patterns of cooperation and competition.
+
+::: {.card-footer}
+[Ongoing]{.status}
+:::
+:::
+
+::: {.research-card}
+::: {.card-icon}
+🔬
+:::
+### Ongoing Research II
+#### *A Xunzian Theory of International Leadership: Virtue, Ritual, and Order*
+
+Advances a new theory of international leadership grounded in the Confucian philosophy of Xunzi. Contrasts this approach with Yan Xuetong's moral realism and dominant Western theories of leadership. Employs a mixed-methods design---combining historical case studies and quantitative analysis---to evaluate how virtue and ritual shape international order.
+
+::: {.card-footer}
+[In Progress]{.status}
+:::
+:::
+
+::: {.research-card}
+::: {.card-icon}
+📊
+:::
+### Ongoing Research III
+#### *Chinese Foreign Policy Texts: A Machine-Learning Approach*
+
+Applies machine learning and natural language processing to analyze indigenous Chinese-language texts and trace shifts in Chinese foreign policy discourse. Builds a comprehensive corpus of PRC foreign policy documents and explores the potential for expanding to historical sources to capture deeper patterns of continuity and change.
+
+::: {.card-footer}
+[In Progress]{.status}
+:::
+:::
+
+::: {.research-card}
+::: {.card-icon}
+🤝
+:::
+### Key Collaborators
+#### *Distinguished Research Partners*
+
+Long-term collaborations with leading scholars in international relations and comparative politics.
+
+::: {.collaborators-list}
+::: {.collaborator}
+**Richard Ned Lebow**<br>
+[Professor Emeritus of International Political Theory, King's College London]{.small}<br>
+[Google Scholar](https://scholar.google.com/citations?user=CtUH_9cAAAAJ&hl=en){.collab-link}
+:::
+
+::: {.collaborator}
+**Barry Buzan**<br>
+[Emeritus Professor of International Relations, London School of Economics]{.small}<br>
+[Google Scholar](https://scholar.google.com/citations?user=9SlmSbwAAAAJ&hl=en){.collab-link}
+:::
+
+::: {.collaborator}
+**Peter J. Katzenstein**<br>
+[Walter S. Carpenter, Jr. Professor of International Studies, Cornell University]{.small}<br>
+[Personal Website](https://pkatzenstein.org/){.collab-link}
+:::
+:::
+:::
+
+:::
+
+::: {.research-areas}
+### Research Areas
+
+::: {.areas-grid}
+::: {.area-item}
+#### Chinese Grand Strategy
+Grand strategies of imperial China and the PRC, Chinese strategic thinking, intellectual foundations of Chinese strategy
+:::
+
+::: {.area-item}
+#### Chinese Foreign Policy
+US-China relations, Chinese exceptionalism, deep pluralism and civilizational politics, Confucian foreign policy traditions, Afghanistan, South China Sea and Southeast Asia
+:::
+
+::: {.area-item}
+#### International Relations Theory
+Moral realism, Confucian IR theory, Chinese approaches to international relations theory and practice
+:::
+
+::: {.area-item}
+#### International Relations of East Asia
+The tribute system, international relations in historical and contemporary East Asia
+:::
+:::
+:::
+
+:::
+:::

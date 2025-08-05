@@ -1,0 +1,62 @@
+---
+title: "Teaching & Speaking"
+description: "Courses, speaking engagements, and expertise areas in Chinese foreign policy and international relations."
+toc: false
+page-layout: custom
+---
+
+::: {.section .teaching-section}
+::: {.container}
+## Teaching & Speaking {.section-title}
+
+::: {.teaching-grid}
+::: {.teaching-card}
+### Current Courses (Yale University)
+
+- **China's International Relations** (UG & PG)
+- **Chinese Thinking on International Relations** (UG & PG)
+
+:::
+
+::: {.teaching-card}
+### Recent Speaking Engagements
+
+::: {.speaking-list}
+::: {.speaking-item}
+**U.S.-China Strategic Dialogue**
+
+National Committee on American Foreign Policy, New York (May 2025)
+:::
+
+::: {.speaking-item}
+**China's Power: Up for Debate**
+
+Center for Strategic & International Studies (February 2025)
+:::
+
+::: {.speaking-item}
+**China as a Global Actor**
+
+Stockholm China Forum 30, Washington DC (November 2024)
+:::
+:::
+:::
+:::
+
+::: {.expertise-areas}
+### Speaking Topics
+
+::: {.topics-grid}
+[Chinese Foreign Policy]{.topic-tag}
+[Chinese Grand Strategy]{.topic-tag}
+[US-China Relations]{.topic-tag}
+[South China Sea]{.topic-tag}
+[Afghanistan Policy]{.topic-tag}
+[IR Theory from China]{.topic-tag}
+[The Tribute System]{.topic-tag}
+[Asian International Relations]{.topic-tag}
+:::
+:::
+
+:::
+:::

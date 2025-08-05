@@ -1,0 +1,180 @@
+---
+title: "China's Economic Leverage in Southeast Asia"
+description: "Interactive visualizations of China's economic leverage over Southeast Asian countries (2010–2023)."
+toc: false
+page-layout: custom
+---
+
+::: {.section}
+::: {.container}
+
+## China's Economic Leverage in Southeast Asia {.section-title}
+
+::: {.dashboard-intro}
+The CELI is a composite index measuring China's economic leverage over Southeast Asian countries, incorporating trade dependence, financial exposure, and debt dynamics. Higher values indicate greater Chinese economic leverage. The index covers 10 countries from 2010 to 2023.
+:::
+
+::: {.chart-section}
+
+### CELI Trends by Country
+
+::: {.chart-description}
+Select countries to compare their CELI trajectories over time.
+:::
+
+```{ojs}
+//| echo: false
+
+celiRaw = FileAttachment("../celi_panel.json").json()
+celiData = celiRaw.filter(d => d.celi !== null && d.year >= 2010 && d.year <= 2023)
+celiCountries = [...new Set(celiData.map(d => d.country_name))].sort()
+
+viewof selectedCountries = Inputs.select(celiCountries, {
+  label: "Select countries",
+  multiple: true,
+  value: ["Cambodia", "Laos", "Myanmar", "Vietnam", "Indonesia"]
+})
+```
+
+```{ojs}
+//| echo: false
+
+celiColors = ["#dc2626", "#2563eb", "#059669", "#d97706", "#7c3aed",
+              "#db2777", "#0891b2", "#65a30d", "#ea580c", "#6366f1"]
+
+celiFiltered = celiData.filter(d => selectedCountries.includes(d.country_name))
+
+Plot.plot({
+  width: Math.min(900, width),
+  height: 450,
+  marginLeft: 50,
+  marginRight: 120,
+  marginBottom: 40,
+  style: {
+    fontSize: "12px",
+    fontFamily: "Source Sans Pro, sans-serif",
+    background: "transparent"
+  },
+  x: {
+    label: "Year",
+    type: "linear",
+    domain: [2010, 2023],
+    tickFormat: d => String(d),
+    ticks: [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+  },
+  y: {
+    label: "CELI Score",
+    grid: true
+  },
+  color: {
+    domain: selectedCountries,
+    range: celiColors.slice(0, selectedCountries.length),
+    legend: true
+  },
+  marks: [
+    Plot.line(celiFiltered, {
+      x: "year",
+      y: "celi",
+      stroke: "country_name",
+      strokeWidth: 2.5,
+      curve: "catmull-rom"
+    }),
+
+    Plot.dot(celiFiltered, {
+      x: "year",
+      y: "celi",
+      fill: "country_name",
+      r: 3
+    }),
+
+    Plot.text(
+      celiFiltered.filter(d => d.year === 2023),
+      {
+        x: "year",
+        y: "celi",
+        text: "country_name",
+        dx: 8,
+        fill: "country_name",
+        fontSize: 10,
+        fontWeight: 600,
+        textAnchor: "start"
+      }
+    ),
+
+    Plot.tip(celiFiltered, Plot.pointer({
+      x: "year",
+      y: "celi",
+      title: d => `${d.country_name}\n${d.year}: CELI = ${d.celi.toFixed(3)}`
+    }))
+  ]
+})
+```
+
+::: {.data-source}
+**Data source:** Author's calculations. The CELI is a composite measure incorporating trade dependence, financial exposure, and debt leverage. See related publications for methodology.
+:::
+
+:::
+
+---
+
+::: {.chart-section}
+
+### CELI Heatmap: All Countries by Year
+
+::: {.chart-description}
+A bird's-eye view of China's economic leverage across all 10 Southeast Asian countries over time. Darker colors indicate higher leverage scores.
+:::
+
+```{ojs}
+//| echo: false
+
+Plot.plot({
+  width: Math.min(900, width),
+  height: 350,
+  marginLeft: 100,
+  marginBottom: 40,
+  padding: 0,
+  style: {
+    fontSize: "12px",
+    fontFamily: "Source Sans Pro, sans-serif",
+    background: "transparent"
+  },
+  x: {
+    label: "Year",
+    tickFormat: d => String(d)
+  },
+  y: {
+    label: null
+  },
+  color: {
+    type: "sequential",
+    scheme: "YlOrRd",
+    label: "CELI Score",
+    legend: true
+  },
+  marks: [
+    Plot.cell(celiData, {
+      x: "year",
+      y: "country_name",
+      fill: "celi",
+      inset: 1,
+      tip: true,
+      title: d => `${d.country_name}, ${d.year}\nCELI: ${d.celi.toFixed(3)}`
+    })
+  ]
+})
+```
+
+::: {.data-source}
+**Data source:** Author's calculations.
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 2rem;"}
+[← Back to CELI](index.html){.btn .btn-secondary}
+:::
+
+:::
+:::

@@ -1,0 +1,78 @@
+---
+title: "Data"
+description: "Interactive data visualizations and dashboards from my research on China's economic relations, foreign policy, and international order."
+toc: false
+page-layout: custom
+---
+
+::: {.section}
+::: {.container}
+
+## Data {.section-title}
+
+::: {.data-intro}
+This page collects interactive data visualizations from my ongoing research projects. Each project page features explorable charts built with publicly available or aggregated data. Click on a project below to explore.
+:::
+
+<div class="data-projects-grid">
+
+<div class="data-project-card">
+<a href="china-economic-power.html">
+<div class="card-banner red"></div>
+<div class="card-body">
+<h3>China's Economic Power and Influence</h3>
+<p>Tracking China's economic rise in comparative and historical perspective, with interactive charts on GDP growth and economic output across major economies.</p>
+<div class="card-meta">
+<span class="meta-tag">IMF WEO Data</span>
+<span class="meta-tag">1980–2029</span>
+<span class="meta-tag">GDP Growth</span>
+</div>
+<span class="card-link">Explore →</span>
+</div>
+</a>
+</div>
+
+<div class="data-project-card">
+<a href="celi/index.html">
+<div class="card-banner blue"></div>
+<div class="card-body">
+<h3>Chinese Economic Leverage Index (CELI)</h3>
+<p>The Chinese Economic Leverage Index measures the degree of China's economic leverage over other countries and regions. Explore trends and compare leverage patterns.</p>
+<div class="card-meta">
+<span class="meta-tag">Author's Data</span>
+<span class="meta-tag">2010–2023</span>
+<span class="meta-tag">Southeast Asia</span>
+</div>
+<span class="card-link">Explore →</span>
+</div>
+</a>
+</div>
+
+<div class="data-project-card coming-soon">
+<div class="card-banner green"></div>
+<div class="card-body">
+<h3>Chinese Security Accommodation Index (CSAI)</h3>
+<p>The Chinese Security Accommodation Index measures the degree to which other states accommodate or resist China's security interests. Initially applied to Southeast Asia.</p>
+<div class="card-meta">
+<span class="meta-tag">Author's Data</span>
+<span class="meta-tag">Southeast Asia</span>
+</div>
+</div>
+</div>
+
+<div class="data-project-card coming-soon">
+<div class="card-banner purple"></div>
+<div class="card-body">
+<h3>Chinese Foreign Policy Discourse</h3>
+<p>Machine learning analysis of Chinese-language foreign policy texts. Tracking shifts in PRC foreign policy discourse through topic modeling and text analysis of official documents.</p>
+<div class="card-meta">
+<span class="meta-tag">NLP / Text Analysis</span>
+<span class="meta-tag">PRC Documents</span>
+</div>
+</div>
+</div>
+
+</div>
+
+:::
+:::

@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - CNAME
+    - robots.txt
+    - .nojekyll
+
+website:
+  title: "Feng Zhang"
+  description: "International relations scholar at Yale specializing in Chinese foreign policy, US-China relations, and IR theory."
+  site-url: "https://fengzhang.net"
+  favicon: assets/favicon.ico
+  open-graph: true
+  twitter-card:
+    site: "@fengzhangmc"
+
+  navbar:
+    background: light
+    logo: assets/feng-zhang-photo.jpg
+    title: "FENG ZHANG"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Commentary"
+        href: commentary.qmd
+      - text: "Data"
+        href: data/index.qmd
+    right:
+      - text: "CV"
+        href: assets/Feng_Zhang_CV.pdf
+      - icon: github
+        href: https://github.com/fengzhangmc
+      - icon: linkedin
+        href: https://www.linkedin.com/in/fengzhangmc/
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+    css: css/custom.css
+    toc: false
+    page-layout: full
+    grid:
+      body-width: 1200px
+    mainfont: "Source Sans Pro, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    include-after-body: _footer.html

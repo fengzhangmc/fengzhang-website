@@ -1,0 +1,302 @@
+---
+title: "China's Economic Power and Influence"
+description: "Interactive visualizations tracking China's economic rise in comparative perspective."
+toc: false
+page-layout: custom
+---
+
+::: {.section}
+::: {.container}
+
+## China's Economic Power and Influence {.section-title}
+
+::: {.dashboard-intro}
+Tracking China's economic rise in comparative and historical perspective. These charts draw on IMF World Economic Outlook data covering major economies from 1980 to 2029.
+:::
+
+::: {.chart-section}
+
+### GDP Growth in Comparative Perspective (1980--2029)
+
+::: {.chart-description}
+Annual GDP growth rate (%). Data from 2025 onward are IMF projections. Toggle countries using the checkboxes.
+:::
+
+```{ojs}
+//| echo: false
+
+gdpRaw = FileAttachment("gdp_growth.json").json()
+
+viewof showChina = Inputs.toggle({label: "China", value: true})
+viewof showUSA = Inputs.toggle({label: "US", value: true})
+viewof showIndia = Inputs.toggle({label: "India", value: true})
+viewof showJapan = Inputs.toggle({label: "Japan", value: false})
+viewof showGermany = Inputs.toggle({label: "Germany", value: false})
+viewof showUK = Inputs.toggle({label: "UK", value: false})
+viewof showBrazil = Inputs.toggle({label: "Brazil", value: false})
+viewof showRussia = Inputs.toggle({label: "Russia", value: false})
+```
+
+```{ojs}
+//| echo: false
+
+gdpFiltered = {
+  let selected = [];
+  if (showChina) selected.push("CHN");
+  if (showUSA) selected.push("USA");
+  if (showIndia) selected.push("IND");
+  if (showJapan) selected.push("JPN");
+  if (showGermany) selected.push("DEU");
+  if (showUK) selected.push("GBR");
+  if (showBrazil) selected.push("BRA");
+  if (showRussia) selected.push("RUS");
+  return gdpRaw.filter(d => selected.includes(d.country));
+}
+
+countryNames = ({
+  "CHN": "China", "USA": "US", "IND": "India", "JPN": "Japan",
+  "DEU": "Germany", "GBR": "UK", "BRA": "Brazil", "RUS": "Russia"
+})
+
+countryColors = ({
+  "CHN": "#dc2626", "USA": "#2563eb", "IND": "#059669", "JPN": "#d97706",
+  "DEU": "#7c3aed", "GBR": "#0891b2", "BRA": "#65a30d", "RUS": "#db2777"
+})
+
+annotations = [
+  {year: 1989, label: "Tiananmen", y: 4.2},
+  {year: 1992, label: "Southern Tour", y: 14.3},
+  {year: 2001, label: "WTO Accession", y: 8.3},
+  {year: 2008, label: "Global Financial Crisis", y: 9.6},
+  {year: 2015, label: "New Normal", y: 7.0},
+  {year: 2020, label: "COVID-19", y: 2.2}
+]
+
+activeCountries = {
+  let s = [];
+  if (showChina) s.push("CHN");
+  if (showUSA) s.push("USA");
+  if (showIndia) s.push("IND");
+  if (showJapan) s.push("JPN");
+  if (showGermany) s.push("DEU");
+  if (showUK) s.push("GBR");
+  if (showBrazil) s.push("BRA");
+  if (showRussia) s.push("RUS");
+  return s;
+}
+```
+
+```{ojs}
+//| echo: false
+
+Plot.plot({
+  width: Math.min(900, width),
+  height: 450,
+  marginLeft: 50,
+  marginRight: 80,
+  marginBottom: 40,
+  style: {
+    fontSize: "12px",
+    fontFamily: "Source Sans Pro, sans-serif",
+    background: "transparent"
+  },
+  x: {
+    label: "Year",
+    type: "linear",
+    domain: [1980, 2029],
+    tickFormat: d => String(d)
+  },
+  y: {
+    label: "GDP Growth (%)",
+    grid: true,
+    domain: [-15, 18]
+  },
+  color: {
+    domain: activeCountries,
+    range: activeCountries.map(c => countryColors[c]),
+    legend: false
+  },
+  marks: [
+    Plot.ruleY([0], {stroke: "#94a3b8", strokeDasharray: "4,4"}),
+
+    Plot.rect([{x1: 2024.5, x2: 2029.5, y1: -15, y2: 18}], {
+      x1: "x1", x2: "x2", y1: "y1", y2: "y2",
+      fill: "#f1f5f9",
+      fillOpacity: 0.7
+    }),
+
+    Plot.text(["IMF Projections"], {
+      x: [2027], y: [16.5],
+      fill: "#94a3b8",
+      fontSize: 10,
+      fontStyle: "italic"
+    }),
+
+    Plot.line(gdpFiltered, {
+      x: "year",
+      y: "value",
+      stroke: "country",
+      strokeWidth: 2,
+      curve: "catmull-rom"
+    }),
+
+    // End-of-line country labels
+    Plot.text(
+      gdpFiltered.filter(d => d.year === 2029),
+      {
+        x: "year",
+        y: "value",
+        text: d => countryNames[d.country],
+        dx: 5,
+        fill: d => countryColors[d.country],
+        fontSize: 10,
+        fontWeight: 600,
+        textAnchor: "start"
+      }
+    ),
+
+    Plot.tip(gdpFiltered, Plot.pointer({
+      x: "year",
+      y: "value",
+      title: d => `${countryNames[d.country]}\n${d.year}: ${d.value.toFixed(1)}%`
+    })),
+
+    ...(showChina ? [
+      Plot.text(annotations, {
+        x: "year",
+        y: d => d.y + 1.8,
+        text: "label",
+        fill: "#64748b",
+        fontSize: 9,
+        fontWeight: 500,
+        textAnchor: "middle"
+      }),
+      Plot.ruleX(annotations, {
+        x: "year",
+        y1: d => d.y + 0.3,
+        y2: d => d.y + 1.4,
+        stroke: "#94a3b8",
+        strokeWidth: 1,
+        strokeDasharray: "2,2"
+      })
+    ] : [])
+  ]
+})
+```
+
+::: {.data-source}
+**Data source:** IMF World Economic Outlook (April 2025). Values from 2025 onward are IMF projections.
+:::
+
+:::
+
+---
+
+::: {.chart-section}
+
+### GDP by Country (1980--2029)
+
+::: {.chart-description}
+Gross domestic product at current prices (USD billions). Shows the scale of each economy over time.
+:::
+
+```{ojs}
+//| echo: false
+
+gdpVolumeRaw = FileAttachment("gdp_volume.json").json()
+
+viewof volCountries = Inputs.select(
+  ["China", "US", "India", "Japan", "Germany"],
+  {
+    label: "Select countries",
+    multiple: true,
+    value: ["China", "US", "India", "Japan"]
+  }
+)
+```
+
+```{ojs}
+//| echo: false
+
+volCountryMap = ({"China": "CHN", "US": "USA", "India": "IND", "Japan": "JPN", "Germany": "DEU"})
+volColorMap = ({"CHN": "#dc2626", "USA": "#2563eb", "IND": "#059669", "JPN": "#d97706", "DEU": "#7c3aed"})
+volCodes = volCountries.map(c => volCountryMap[c])
+volFiltered = gdpVolumeRaw.filter(d => volCodes.includes(d.country))
+
+Plot.plot({
+  width: Math.min(900, width),
+  height: 450,
+  marginLeft: 60,
+  marginRight: 80,
+  marginBottom: 40,
+  style: {
+    fontSize: "12px",
+    fontFamily: "Source Sans Pro, sans-serif",
+    background: "transparent"
+  },
+  x: {
+    label: "Year",
+    type: "linear",
+    domain: [1980, 2029],
+    tickFormat: d => String(d)
+  },
+  y: {
+    label: "GDP (USD billions)",
+    grid: true
+  },
+  color: {
+    domain: volCodes,
+    range: volCodes.map(c => volColorMap[c]),
+    legend: false
+  },
+  marks: [
+    Plot.rect([{x1: 2024.5, x2: 2029.5, y1: 0, y2: 40000}], {
+      x1: "x1", x2: "x2", y1: "y1", y2: "y2",
+      fill: "#f1f5f9",
+      fillOpacity: 0.7
+    }),
+
+    Plot.line(volFiltered, {
+      x: "year",
+      y: "value",
+      stroke: "country",
+      strokeWidth: 2.5,
+      curve: "catmull-rom"
+    }),
+
+    // End-of-line labels
+    Plot.text(
+      volFiltered.filter(d => d.year === 2029),
+      {
+        x: "year",
+        y: "value",
+        text: d => countryNames[d.country],
+        dx: 5,
+        fill: d => volColorMap[d.country],
+        fontSize: 10,
+        fontWeight: 600,
+        textAnchor: "start"
+      }
+    ),
+
+    Plot.tip(volFiltered, Plot.pointer({
+      x: "year",
+      y: "value",
+      title: d => `${countryNames[d.country]}\n${d.year}: $${d.value.toFixed(0)}B`
+    }))
+  ]
+})
+```
+
+::: {.data-source}
+**Data source:** IMF World Economic Outlook (April 2025). GDP at current prices in U.S. dollars. Values from 2025 onward are IMF projections.
+:::
+
+:::
+
+::: {style="text-align: center; margin-top: 2rem;"}
+[← Back to Data Projects](index.html){.btn .btn-secondary}
+:::
+
+:::
+:::

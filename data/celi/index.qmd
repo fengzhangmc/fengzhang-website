@@ -1,0 +1,53 @@
+---
+title: "Chinese Economic Leverage Index (CELI)"
+description: "The Chinese Economic Leverage Index measures the degree of China's economic leverage over other countries and regions."
+toc: false
+page-layout: custom
+---
+
+::: {.section}
+::: {.container}
+
+## Chinese Economic Leverage Index (CELI) {.section-title}
+
+::: {.data-intro}
+The Chinese Economic Leverage Index (CELI) measures the degree of China's economic leverage over other countries and regions, incorporating trade dependence, financial exposure, and debt dynamics. Explore trends and compare leverage patterns across different regions below.
+:::
+
+<div class="data-projects-grid">
+
+<div class="data-project-card">
+<a href="southeast-asia.html">
+<div class="card-banner blue"></div>
+<div class="card-body">
+<h3>Southeast Asia</h3>
+<p>CELI scores for 10 Southeast Asian countries from 2010 to 2023. Explore country-level trends and compare leverage patterns across the region with interactive line charts and heatmaps.</p>
+<div class="card-meta">
+<span class="meta-tag">10 Countries</span>
+<span class="meta-tag">2010–2023</span>
+<span class="meta-tag">Balanced Panel</span>
+</div>
+<span class="card-link">Explore →</span>
+</div>
+</a>
+</div>
+
+<div class="data-project-card coming-soon">
+<div class="card-banner green"></div>
+<div class="card-body">
+<h3>More Regions</h3>
+<p>CELI analysis for additional regions and countries will be added as the research expands. Check back for updates on Africa, Central Asia, Latin America, and the Pacific Islands.</p>
+<div class="card-meta">
+<span class="meta-tag">Forthcoming</span>
+</div>
+</div>
+</div>
+
+</div>
+
+::: {style="text-align: center; margin-top: 2rem;"}
+[← Back to Data Projects](../index.html){.btn .btn-secondary}
+:::
+
+:::
+:::

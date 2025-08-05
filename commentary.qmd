@@ -1,0 +1,78 @@
+---
+title: "Commentary"
+description: "Op-eds, analysis, and media commentary on Chinese foreign policy, US-China relations, and East Asian affairs."
+toc: false
+page-layout: custom
+---
+
+::: {.section .media-section}
+::: {.container}
+## Commentary {.section-title}
+
+::: {.media-featured}
+::: {.featured-media}
+[OP-ED]{.media-type .op-ed}
+
+### "China's Grand Reception for Kim Jong Un: Strategic Reset or Warning Shot?"
+
+38 North, Stimson Center
+
+[*September 5, 2025*]{.media-date}
+:::
+:::
+
+::: {.media-grid}
+
+::: {.media-item}
+[OP-ED]{.media-type .op-ed}
+
+#### "Confucius Says: Get the Definition of US-China 'Competition' Right"
+
+[Responsible Statecraft]{.outlet} · November 4, 2024
+:::
+
+::: {.media-item}
+[ANALYSIS]{.media-type .analysis}
+
+#### "Is China Being Played by North Korea and Russia?"
+
+[Responsible Statecraft]{.outlet} · November 25, 2024
+:::
+
+::: {.media-item}
+[COMMENTARY]{.media-type .commentary}
+
+#### "Sino-Indian Double Rivalry in the Shadow of Trump's Return"
+
+[China-India Brief]{.outlet} · December 23, 2024
+:::
+
+::: {.media-item}
+[PODCAST]{.media-type .podcast}
+
+#### "China-North Korea Evolving Relations"
+
+[China Power Podcast, Center for Strategic & International Studies]{.outlet} · December 19, 2024
+:::
+
+:::
+
+::: {.media-outlets}
+#### Commentary Outlets
+
+::: {.outlets-list}
+[Foreign Affairs]{.outlet-tag}
+[Foreign Policy]{.outlet-tag}
+[Responsible Statecraft]{.outlet-tag}
+[East Asian Forum]{.outlet-tag}
+[Wire China]{.outlet-tag}
+[National Interest]{.outlet-tag}
+:::
+:::
+
+::: {.media-cta}
+[View All Commentary](assets/Feng_Zhang_CV.pdf){.btn .btn-primary}
+:::
+
+:::
+:::
