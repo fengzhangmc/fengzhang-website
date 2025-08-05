@@ -1,0 +1,152 @@
+# GitHub Pages Configuration for Feng Zhang's Academic Website
+
+# Site settings
+title: "Feng Zhang - International Relations Scholar"
+description: "Associate Research Scholar at Yale University specializing in Chinese foreign policy, US-China relations, and IR theory."
+url: "https://YOUR-USERNAME.github.io"
+baseurl: "/fengzhang-website"
+
+# Author information
+author:
+  name: "Feng Zhang"
+  email: "fengzhangmc@gmail.com"
+  affiliation: "Yale University"
+  position: "Associate Research Scholar and Lecturer"
+
+# SEO settings
+lang: en_US
+timezone: America/New_York
+
+# Social media (update with actual profiles)
+social:
+  twitter: "fengzhang_ir"
+  linkedin: "fengzhang-ir"
+  google_scholar: "XXXXXXX"
+  orcid: "XXXX-XXXX-XXXX-XXXX"
+  researchgate: "Feng_Zhang"
+
+# Jekyll settings (GitHub Pages default)
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Build settings
+sass:
+  style: compressed
+
+# Exclude files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - .git
+  - .gitignore
+
+# Include files
+include:
+  - _pages
+  - assets
+
+# Collections (if using Jekyll collections)
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name/
+  research:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publication"
+  - scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "research"
+
+# Analytics (optional - add your tracking ID)
+google_analytics: # GA_TRACKING_ID
+
+# Contact form (if using a service like Formspree)
+contact_form_action: # https://formspree.io/f/YOUR_FORM_ID
+
+# Academic-specific settings
+academic:
+  cv_file: "assets/Feng_Zhang_CV_2025.pdf"
+  photo: "assets/feng-zhang-photo.jpg"
+  research_areas:
+    - "Chinese Foreign Policy"
+    - "US-China Relations" 
+    - "International Relations Theory"
+    - "South China Sea"
+    - "Afghanistan Policy"
+  
+# Navigation menu
+navigation:
+  - title: "Home"
+    url: "/#home"
+  - title: "Research"
+    url: "/#research"
+  - title: "Publications"
+    url: "/#publications"
+  - title: "Teaching"
+    url: "/#teaching"
+  - title: "Media"
+    url: "/#media"
+  - title: "CV"
+    url: "/assets/Feng_Zhang_CV_2025.pdf"
+
+# Footer links
+footer_links:
+  - title: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=XXXXXXX"
+  - title: "ORCID"
+    url: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+  - title: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Feng_Zhang"
+  - title: "LinkedIn"
+    url: "https://linkedin.com/in/fengzhang-ir"
+
+# Institutional affiliation
+institution:
+  name: "Yale University"
+  department: "Council on East Asian Studies"
+  center: "MacMillan Center"
+  address:
+    street: "34 Hillhouse Avenue"
+    city: "New Haven"
+    state: "CT"
+    zip: "06520"
+    country: "USA"
+
+# Research keywords (for SEO)
+keywords:
+  - "Chinese foreign policy"
+  - "US-China relations"
+  - "International Relations theory"
+  - "South China Sea"
+  - "Afghanistan"
+  - "Strategic competition"
+  - "East Asian security"
+  - "IR theory from China"
