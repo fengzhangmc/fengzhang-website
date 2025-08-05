@@ -1,2 +1,2 @@
 # fengzhang-website
-Academic website for Feng Zhang
+Academic website for Feng Zhang - international relations scholar
