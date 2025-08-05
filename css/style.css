@@ -154,26 +154,6 @@ p {
     transform: translateY(-5px);
 }
 
-/* Placeholder for missing image */
-.hero-image::before {
-    content: "Professional Photo\A(280×320px)";
-    white-space: pre;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 280px;
-    height: 320px;
-    background: linear-gradient(135deg, #e2e8f0, #cbd5e0);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #64748b;
-    font-size: 0.9rem;
-    text-align: center;
-    z-index: 1;
-}
-
 .hero-text h2 {
     color: #1a365d;
     font-size: 2.5rem;
