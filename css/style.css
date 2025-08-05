@@ -923,3 +923,44 @@ p {
         color: white;
     }
 }
+
+/* Collaborators styling */
+  .collaborators-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
+  }
+
+  .collaborator {
+      padding: 1rem;
+      background: #f8fafc;
+      border-radius: 6px;
+      border-left: 3px solid #0f4c8a;
+  }
+
+  .collaborator strong {
+      color: #1a365d;
+      font-size: 1rem;
+  }
+
+  .collaborator small {
+      color: #64748b;
+      font-style: italic;
+  }
+
+  .collab-link {
+      color: #0f4c8a;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+  }
+
+  .collab-link:hover {
+      text-decoration: underline;
+  }
+
+  /* Adjust card footer for collaborators */
+  .research-card .collaborators-list {
+      margin-bottom: -1rem;
+  }
