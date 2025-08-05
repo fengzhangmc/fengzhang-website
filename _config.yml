@@ -23,7 +23,7 @@ social:
   bluesky: "https://bsky.app/profile/fengzhang.bsky.social"
   x: "https://x.com/fengzhangmc"
   google_scholar: "https://scholar.google.com/citations?hl=en&user=JU4WvtwAAAAJ&view_op=list_works&gmla=AJsN-F53MywqijelhYm8a-P3-YAATXgK2ixhuVfwdWHDaMQmZnscarYgnhWyG2JpS5FP6_J7V_-PQMNU0Gg3AXsqkg1Yx2cUHQ"
-  orcid: "0000-0002-6758-4333"
+  orcid: "https://orcid.org/my-orcid?orcid=0000-0002-6758-4333"
   Web of Science: "https://www.webofscience.com/wos/author/record/S-7851-2019"
 
 # Jekyll settings (GitHub Pages default)
