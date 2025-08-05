@@ -2,14 +2,14 @@
 
 # Site settings
 title: "Feng Zhang - International Relations Scholar"
-description: "Associate Research Scholar at Yale University specializing in Chinese foreign policy, US-China relations, and IR theory."
-url: "https://YOUR-USERNAME.github.io"
+description: "Associate Research Scholar and Lecturer at Yale University specializing in Chinese foreign policy, US-China relations, and IR theory."
+url: "https://fengzhangmc.github.io"
 baseurl: "/fengzhang-website"
 
 # Author information
 author:
   name: "Feng Zhang"
-  email: "fengzhangmc@gmail.com"
+  email: "feng.zhang@yale.edu"
   affiliation: "Yale University"
   position: "Associate Research Scholar and Lecturer"
 
@@ -19,11 +19,12 @@ timezone: America/New_York
 
 # Social media (update with actual profiles)
 social:
-  twitter: "fengzhang_ir"
-  linkedin: "fengzhang-ir"
-  google_scholar: "XXXXXXX"
-  orcid: "XXXX-XXXX-XXXX-XXXX"
-  researchgate: "Feng_Zhang"
+  linkedin: "https://www.linkedin.com/in/fengzhangmc/"
+  bluesky: "https://bsky.app/profile/fengzhang.bsky.social"
+  x: "https://x.com/fengzhangmc"
+  google_scholar: "https://scholar.google.com/citations?hl=en&user=JU4WvtwAAAAJ&view_op=list_works&gmla=AJsN-F53MywqijelhYm8a-P3-YAATXgK2ixhuVfwdWHDaMQmZnscarYgnhWyG2JpS5FP6_J7V_-PQMNU0Gg3AXsqkg1Yx2cUHQ"
+  orcid: "0000-0002-6758-4333"
+  Web of Science: "https://www.webofscience.com/wos/author/record/S-7851-2019"
 
 # Jekyll settings (GitHub Pages default)
 markdown: kramdown
