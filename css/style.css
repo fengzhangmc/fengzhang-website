@@ -254,23 +254,69 @@ p {
 
 /* Research Section */
 /* NEW CODE - 2x3 GRID LAYOUT */
-  .research-grid {
+.research-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, auto);
       gap: 2rem;
       margin-bottom: 4rem;
   }
 
+  /* Force specific grid positions */
+  .research-card:nth-child(1) { grid-column: 1; grid-row: 1;
+  } /* New Book */
+  .research-card:nth-child(2) { grid-column: 2; grid-row: 1;
+  } /* Forthcoming Book */
+  .research-card:nth-child(3) { grid-column: 3; grid-row: 1;
+  } /* Ongoing Research I */
+  .research-card:nth-child(4) { grid-column: 1; grid-row: 2;
+  } /* Ongoing Research II */
+  .research-card:nth-child(5) { grid-column: 2; grid-row: 2;
+  } /* Ongoing Research III */
+  .research-card:nth-child(6) { grid-column: 3; grid-row: 2;
+  } /* Collaborators */
+
+  /* Responsive: 2 columns on tablets */
   @media (max-width: 1024px) {
       .research-grid {
           grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(3, auto);
       }
+
+      .research-card:nth-child(1) { grid-column: 1; grid-row:
+   1; }
+      .research-card:nth-child(2) { grid-column: 2; grid-row:
+   1; }
+      .research-card:nth-child(3) { grid-column: 1; grid-row:
+   2; }
+      .research-card:nth-child(4) { grid-column: 2; grid-row:
+   2; }
+      .research-card:nth-child(5) { grid-column: 1; grid-row:
+   3; }
+      .research-card:nth-child(6) { grid-column: 2; grid-row:
+   3; }
   }
 
+  /* Responsive: 1 column on mobile */
   @media (max-width: 768px) {
       .research-grid {
           grid-template-columns: 1fr;
+          grid-template-rows: auto;
       }
+
+      /* Reset all positioning for mobile */
+      .research-card:nth-child(1) { grid-column: 1; grid-row:
+   1; }
+      .research-card:nth-child(2) { grid-column: 1; grid-row:
+   2; }
+      .research-card:nth-child(3) { grid-column: 1; grid-row:
+   3; }
+      .research-card:nth-child(4) { grid-column: 1; grid-row:
+   4; }
+      .research-card:nth-child(5) { grid-column: 1; grid-row:
+   5; }
+      .research-card:nth-child(6) { grid-column: 1; grid-row:
+   6; }
   }
 
 .research-card {
