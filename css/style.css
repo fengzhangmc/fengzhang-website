@@ -864,25 +864,6 @@ p {
         flex-wrap: wrap;
     }
     
-  .research-grid {
-      grid-template-columns: 1fr !important;
-      grid-template-rows: auto !important;
-  }
-
-  /* Reset positioning for mobile */
-  .research-card:nth-child(1) { grid-column: 1 !important;
-  grid-row: 1 !important; }
-  .research-card:nth-child(2) { grid-column: 1 !important;
-  grid-row: 2 !important; }
-  .research-card:nth-child(3) { grid-column: 1 !important;
-  grid-row: 3 !important; }
-  .research-card:nth-child(4) { grid-column: 1 !important;
-  grid-row: 4 !important; }
-  .research-card:nth-child(5) { grid-column: 1 !important;
-  grid-row: 5 !important; }
-  .research-card:nth-child(6) { grid-column: 1 !important;
-  grid-row: 6 !important; }
-    
     .areas-grid {
         grid-template-columns: 1fr;
     }
