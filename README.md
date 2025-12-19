@@ -3,24 +3,11 @@
 A professional academic website for Feng Zhang, Associate Research Scholar and Lecturer at Yale University, specializing in Chinese foreign policy and international relations.
 
 🌐 Live Site: https://fengzhang.net
-- Optimized for SEO with meta tags and structured content
-- Print-friendly CSS for easy CV/page printing
-
-## Customization
-
-To adapt this template for your own academic website:
-
-1. **Update Personal Information**: Edit the header section in `index.html` with your name and affiliation
-2. **Replace Content**: Update research projects, publications, and media sections with your information
-3. **Modify Colors**: Adjust the color scheme in `style.css` (primary colors: `#1a365d` and `#0f4c8a`)
-4. **Add Your Photo**: Replace `feng-zhang-photo.jpg` in the assets folder
-5. **Update Links**: Change all social media and academic profile URLs in the footer
-
-## Deployment
 
 The site is automatically deployed via GitHub Pages when changes are pushed to the main branch.
 
 ### Custom Domain Setup
+
 1. Add a `CNAME` file with your domain (e.g., `fengzhang.net`)
 2. Configure DNS settings with your domain provider:
    - A records pointing to GitHub Pages IPs
@@ -61,4 +48,4 @@ Website: [https://fengzhang.net](https://fengzhang.net)
 
 ---
 
-*Last updated: August 2025*
+_Last updated: August 2025_
