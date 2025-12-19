@@ -2,52 +2,7 @@
 
 A professional academic website for Feng Zhang, Associate Research Scholar and Lecturer at Yale University, specializing in Chinese foreign policy and international relations.
 
-🌐 **Live Site**: [https://fengzhang.net](https://fengzhang.net)
-
-## Overview
-
-This repository contains the source code for my academic website, showcasing research, publications, teaching experience, and media engagement in the field of international relations. The site is built with clean HTML/CSS and hosted on GitHub Pages, optimized for both desktop and mobile viewing.
-
-## Features
-
-- **Responsive Design**: Fully responsive layout that works seamlessly across desktop, tablet, and mobile devices
-- **Professional Academic Layout**: Clean, elegant design appropriate for academic presentation
-- **Research Portfolio**: Organized presentation of current research projects in a 2×3 grid layout
-- **Publications Section**: Filterable list of recent publications with DOI links
-- **Media Coverage**: Highlighted media appearances and commentary
-- **Teaching Information**: Current and upcoming courses at Yale University
-- **Comprehensive Footer**: Organized links to academic profiles, social media, and contact information
-
-## Structure
-
-```
-fengzhang-website/
-│
-├── index.html              # Main homepage
-├── css/
-│   └── style.css          # Main stylesheet
-├── js/
-│   └── script.js          # JavaScript for interactive elements
-├── assets/
-│   ├── feng-zhang-photo.jpg    # Profile photo
-│   ├── Feng_Zhang_CV_2025.pdf  # Curriculum vitae
-│   └── favicon.ico             # Site favicon
-└── README.md              # This file
-```
-
-## Technical Details
-
-### Built With
-- **HTML5** - Semantic markup for content structure
-- **CSS3** - Modern styling with flexbox and grid layouts
-- **JavaScript** - Vanilla JS for interactive components
-- **Google Fonts** - Source Sans Pro for typography
-- **GitHub Pages** - Free hosting with custom domain support
-
-### Key Features
-- CSS Grid for responsive research cards layout (2×3 on desktop, 2×3 on tablet, 1×6 on mobile)
-- Smooth scroll navigation with fixed header
-- Hover effects and subtle animations for enhanced UX
+🌐 Live Site: https://fengzhang.net
 - Optimized for SEO with meta tags and structured content
 - Print-friendly CSS for easy CV/page printing
 

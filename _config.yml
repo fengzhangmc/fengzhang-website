@@ -3,8 +3,8 @@
 # Site settings
 title: "Feng Zhang - International Relations Scholar"
 description: "Associate Research Scholar and Lecturer at Yale University specializing in Chinese foreign policy, US-China relations, and IR theory."
-url: "https://fengzhangmc.github.io"
-baseurl: "/fengzhang-website"
+url: "https://fengzhang.net"
+baseurl: ""
 
 # Author information
 author:
@@ -98,11 +98,11 @@ academic:
   photo: "assets/feng-zhang-photo.jpg"
   research_areas:
     - "Chinese Foreign Policy"
-    - "US-China Relations" 
+    - "US-China Relations"
     - "International Relations Theory"
     - "South China Sea"
     - "Afghanistan Policy"
-  
+
 # Navigation menu
 navigation:
   - title: "Home"
