@@ -50,4 +50,5 @@ format:
     grid:
       body-width: 1200px
     mainfont: "Source Sans Pro, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    include-in-header: _canonical.html
     include-after-body: _footer.html

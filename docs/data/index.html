@@ -69,6 +69,23 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+// Add canonical URL to prevent "Duplicate without user-selected canonical" in Google Search Console
+(function() {
+  var link = document.createElement('link');
+  link.rel = 'canonical';
+  // Normalize: remove index.html and trailing slashes (except root)
+  var url = window.location.href.split('#')[0].split('?')[0];
+  url = url.replace(/\/index\.html$/, '/');
+  if (url !== 'https://fengzhang.net/' && url.endsWith('/')) {
+    url = url.slice(0, -1);
+  }
+  // Ensure we use the canonical domain
+  url = url.replace(/^https?:\/\/[^/]+/, 'https://fengzhang.net');
+  link.href = url;
+  document.head.appendChild(link);
+})();
+</script>
 
 
 <link rel="stylesheet" href="../css/custom.css">

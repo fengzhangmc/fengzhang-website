@@ -94,7 +94,7 @@ contact_form_action: # https://formspree.io/f/YOUR_FORM_ID
 
 # Academic-specific settings
 academic:
-  cv_file: "assets/Feng_Zhang_CV_2025.pdf"
+  cv_file: "assets/Feng_Zhang_CV.pdf"
   photo: "assets/feng-zhang-photo.jpg"
   research_areas:
     - "Chinese Foreign Policy"
@@ -116,7 +116,7 @@ navigation:
   - title: "Media"
     url: "/#media"
   - title: "CV"
-    url: "/assets/Feng_Zhang_CV_2025.pdf"
+    url: "/assets/Feng_Zhang_CV.pdf"
 
 # Footer links
 footer_links:

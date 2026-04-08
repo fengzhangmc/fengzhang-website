@@ -104,6 +104,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script>
+// Add canonical URL to prevent "Duplicate without user-selected canonical" in Google Search Console
+(function() {
+  var link = document.createElement('link');
+  link.rel = 'canonical';
+  // Normalize: remove index.html and trailing slashes (except root)
+  var url = window.location.href.split('#')[0].split('?')[0];
+  url = url.replace(/\/index\.html$/, '/');
+  if (url !== 'https://fengzhang.net/' && url.endsWith('/')) {
+    url = url.slice(0, -1);
+  }
+  // Ensure we use the canonical domain
+  url = url.replace(/^https?:\/\/[^/]+/, 'https://fengzhang.net');
+  link.href = url;
+  document.head.appendChild(link);
+})();
+</script>
 <script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
 <link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
