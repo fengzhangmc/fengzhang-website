@@ -63,7 +63,7 @@ Co-authored with Richard Ned Lebow. Investigates how states and leaders learn---
 
 ::: {.card-footer}
 [Oxford University Press]{.tag}
-[Under Review]{.status}
+[Forthcoming]{.status}
 :::
 :::
 
