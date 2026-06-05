@@ -11,7 +11,7 @@ page-layout: custom
 
 ::: {.teaching-grid}
 ::: {.teaching-card}
-### Current Courses (Yale University)
+### Courses Taught (Yale University)
 
 - **China's International Relations** (UG & PG)
 - **Chinese Thinking on International Relations** (UG & PG)

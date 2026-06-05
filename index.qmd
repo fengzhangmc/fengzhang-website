@@ -1,7 +1,7 @@
 ---
 title: "International Relations and China"
 pagetitle: "Feng Zhang | International Relations Scholar | Chinese Foreign Policy"
-description: "International relations scholar at Yale specializing in Chinese foreign policy, US-China relations, and IR theory."
+description: "International relations scholar at the National University of Singapore specializing in Chinese foreign policy, US-China relations, and IR theory."
 image: assets/feng-zhang-photo.jpg
 toc: false
 page-layout: custom
@@ -18,10 +18,10 @@ page-layout: custom
 ::: {.hero-text}
 ## International Relations and China
 
-I am a scholar of international relations specializing in Chinese foreign policy, IR theory, and the international order of East and Southeast Asia. My research bridges Chinese and Western theoretical traditions to illuminate how history, philosophy, and culture shape contemporary statecraft. My academic experience includes teaching at institutions across Australia, China, the United Kingdom, and the United States. Currently, I serve as Associate Research Scholar and Lecturer at Yale University's MacMillan Center for International and Area Studies and Department of Political Science.
+I am a scholar of international relations specializing in Chinese foreign policy, IR theory, and the international order of East and Southeast Asia. My research bridges Chinese and Western theoretical traditions to illuminate how history, philosophy, and culture shape contemporary statecraft. My academic experience includes teaching at institutions across Australia, China, the United Kingdom, and the United States. Currently, I serve as Senior Research Fellow at the East Asian Institute, National University of Singapore.
 
 ::: {.hero-buttons}
-[📧 Contact](mailto:feng.zhang@yale.edu){.btn .btn-primary}
+[📧 Contact](mailto:zhangfeng@nus.edu.sg){.btn .btn-primary}
 [📄 Download CV](assets/Feng_Zhang_CV.pdf){.btn .btn-secondary}
 :::
 
@@ -330,7 +330,7 @@ Co-authored with Barry Buzan · [*Chinese Journal of International Politics*]{.j
 
 ::: {.teaching-grid}
 ::: {.teaching-card}
-### Current Courses (Yale University)
+### Courses Taught (Yale University)
 
 - **China's International Relations** (UG & PG)
 - **Chinese Thinking on International Relations** (UG & PG)

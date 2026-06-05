@@ -2,16 +2,16 @@
 
 # Site settings
 title: "Feng Zhang - International Relations Scholar"
-description: "Associate Research Scholar and Lecturer at Yale University specializing in Chinese foreign policy, US-China relations, and IR theory."
+description: "Senior Research Fellow at the East Asian Institute, National University of Singapore, specializing in Chinese foreign policy, US-China relations, and IR theory."
 url: "https://fengzhang.net"
 baseurl: ""
 
 # Author information
 author:
   name: "Feng Zhang"
-  email: "feng.zhang@yale.edu"
-  affiliation: "Yale University"
-  position: "Associate Research Scholar and Lecturer"
+  email: "zhangfeng@nus.edu.sg"
+  affiliation: "National University of Singapore"
+  position: "Senior Research Fellow"
 
 # SEO settings
 lang: en_US
@@ -131,15 +131,13 @@ footer_links:
 
 # Institutional affiliation
 institution:
-  name: "Yale University"
-  department: "Council on East Asian Studies"
-  center: "MacMillan Center"
+  name: "National University of Singapore"
+  department: "East Asian Institute"
   address:
-    street: "34 Hillhouse Avenue"
-    city: "New Haven"
-    state: "CT"
-    zip: "06520"
-    country: "USA"
+    street: "469A Bukit Timah Road, #06-01 Tower Block"
+    city: "Singapore"
+    zip: "259770"
+    country: "Singapore"
 
 # Research keywords (for SEO)
 keywords:

@@ -8,7 +8,7 @@ project:
 
 website:
   title: "Feng Zhang"
-  description: "International relations scholar at Yale specializing in Chinese foreign policy, US-China relations, and IR theory."
+  description: "International relations scholar at the National University of Singapore specializing in Chinese foreign policy, US-China relations, and IR theory."
   site-url: "https://fengzhang.net"
   favicon: assets/favicon.ico
   open-graph: true
